@@ -1,2 +1,123 @@
-@import "../variable.scss";
-@import "../components/button.scss";
+@import '../variable.scss';
+@import '../components/button.scss';
+
+.benefits {
+	margin-top: 11.25rem;
+	&-title {
+		h5 {
+			font-weight: 700;
+			font-size: 16px;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: $createxTitle;
+		}
+		h2 {
+			font-weight: 900;
+			font-size: 46px;
+			text-align: center;
+			color: S-$createxTitle;
+		}
+	}
+	&-info {
+		margin-top: 3.75rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.benefits-info-tutors {
+			background: transparent;
+			border: 1px solid $secondColorBtn;
+			color: $secondColorBtn;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+			}
+			span {
+				margin-left: 8px;
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 160%;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				color: #ff3f3a;
+			}
+		}
+		.benefits-info-feedback {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+			}
+			span {
+				margin-left: 8px;
+				font-weight: 700;
+				font-size: 16px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				color: #9a9ca5;
+			}
+		}
+		.benefits-info-online {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+			}
+			span {
+				margin-left: 8px;
+				font-weight: 700;
+				font-size: 16px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				color: #9a9ca5;
+			}
+		}
+		.benefits-info-community {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+			}
+			span {
+				margin-left: 8px;
+				font-weight: 700;
+				font-size: 16px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				color: #9a9ca5;
+			}
+		}
+	}
+	.benefits__bottom {
+		margin-top: 3.75rem;
+		display: flex;
+		gap: 8.438rem;
+
+		.benefits__bottom-text {
+			max-width: 495px;
+			margin-top: 7.625rem;
+
+			h3 {
+				font-weight: 900;
+				font-size: 32px;
+				line-height: 130%;
+				color: $createxTitle;
+				margin-bottom: 1.5rem;
+			}
+
+			p {
+				font-weight: 400;
+				font-size: 16px;
+				color: $mainColor;
+			}
+		}
+		.benefits__bottom_img {
+		}
+	}
+}
