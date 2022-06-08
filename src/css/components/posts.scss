@@ -1,2 +1,154 @@
 @import "../variable.scss";
 @import "../components/button.scss";
+
+
+
+// .events{
+//     padding-top: 80px;       
+//     background-position: center center;
+//     background: url(../img/bg-color.png);
+//     margin-bottom: 50px;
+//     font-weight: bold;
+//     font-size: 16px;
+//     line-height: 150%;
+//     letter-spacing: 1px;
+//     text-transform: uppercase;
+//     color: #1E212C;
+//     text-align: center;
+//     margin-bottom: 120px;
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//     padding-bottom: 60px;
+//     position: relative;
+//     .circles-events{
+//         position: absolute;
+//         right: 0;
+//         top: 0;
+//     }
+//     .dots-events{
+//         position: absolute;
+//         bottom: 0;
+//     }
+//     .our-events-p{
+//         margin-bottom: 10px;
+//     }
+//     .lecture{
+//         font-weight: 900;
+//         font-size: 40px;
+//         line-height: 130%;        
+//         color: #1E212C;
+//         text-align: center;
+//         margin-bottom: 60px;
+//     }
+//     .events-blog-first{
+//     background-color: white;
+//     display: flex;
+//     justify-content: space-between;
+//     min-height: 130px;
+//     margin-bottom: 60px;
+//     border-radius: 10px;
+//     width: 90%;
+//     flex-wrap: wrap;    
+//     .event-date{
+//         display: flex;
+//         align-items: center;
+//         margin-left: 30px;
+//         margin-right: 10px;
+//         .event-date-numb{
+//             font-weight: 900;
+//             font-size: 48px;
+//             line-height: 130%;               
+//             letter-spacing: 1px;
+//             color: #FF3F3A;
+//             margin-right: 20px;
+//         }
+//         .event-date-month-hour{
+//             .event-date-month{
+//                 font-weight: bold;
+//                 font-size: 16px;
+//                 line-height: 150%;
+//                 margin-bottom: 5px;
+//                 color: #1E212C;
+//             }
+//             .event-date-hour{
+//                 font-size: 14px;                  
+//                 color: #787A80;
+//                 width: 100px;
+
+//             }
+//         }
+//     }
+//     .event-dsc{
+//         align-items: center;
+//         max-width: 730px;
+//         .event-dsc-first{
+//             margin-top: 32px;
+//             font-weight: bold;
+//             font-size: 16px;
+//             // line-height: 150%;
+//             color: #1E212C;
+//             margin-bottom: 5px;
+//         }
+//         .event-dsc-second{
+//             color: #787A80;
+//             font-size: 16px;
+//         }
+//     }
+//     .event-btn{
+//         display: flex;
+//         align-items: center;
+//         button{
+//             border: none;
+//             width: 120px;
+//             margin-right: 10px;
+//             height: 42px;
+//             border: 1px solid #F75E05;
+//             background-color: transparent;
+//             color: #F75E05;
+//             border-radius: 4px;
+//             transition: 0.2s;
+//             font-weight: bold;
+//             font-size: 16px;
+//             &:hover{
+//                 background-color: #F75E05;
+//                 color: white;
+//                 font-weight: bold;
+//                 transition: 0.2s;
+//             }
+//         }
+//     }                
+//     }
+// .question-div{
+//     display: flex;
+//     align-items: center;
+//     .question{
+//         font-weight: bold;
+//         font-size: 24px;
+//         line-height: 150%;
+//         display: flex;
+//         align-items: center;
+//         color: #1E212C;
+//     }
+//     .question-btn{            
+//         button{
+//             border: none;
+//             width: 161px;
+//             height: 44px;
+//             background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+//             border-radius: 4px;
+//             display: flex;
+//             align-items: center;
+//             color: white;
+//             padding-left: 25px;                  
+//             transition: 0.2s;
+//             margin-left: 30px;
+//             font-weight: bold;
+//             transition: 0.2s;
+//             &:hover{
+//                 box-shadow: 0px 5px 5px #F75E05;
+//                 transition: 0.2s;
+//             }
+//         }
+//     }
+// }
