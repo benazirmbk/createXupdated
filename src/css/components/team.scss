@@ -1,2 +1,39 @@
-@import "../variable.scss";
-@import "../components/button.scss";
+@import '../variable.scss';
+@import '../components/button.scss';
+
+.team-wrapper {
+	.container {
+		.team {
+			&-title {
+				h5 {
+					font-weight: 700;
+					font-size: 16px;
+
+					letter-spacing: 1px;
+					text-transform: uppercase;
+
+					color: $createxTitle;
+				}
+				h2 {
+					font-weight: 900;
+					font-size: 46px;
+
+					color: $createxTitle;
+				}
+			}
+
+			.team-mentors {
+				display: flex;
+				justify-content: space-between;
+				.team-mentors-first {
+				}
+				.team-mentors-second {
+				}
+				.team-mentors-third {
+				}
+				.team-mentors-forth {
+				}
+			}
+		}
+	}
+}
