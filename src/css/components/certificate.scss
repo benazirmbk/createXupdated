@@ -1,2 +1,47 @@
-@import "../variable.scss";
-@import "../components/button.scss";
+@import '../variable.scss';
+@import '../components/button.scss';
+
+.certificate {
+	margin-top: 7.5rem;
+	display: flex;
+	justify-content: space-between;
+	&-text {
+		max-width: 397px;
+		h5 {
+			font-weight: 700;
+			font-size: 16px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: $createxTitle;
+		}
+		h3 {
+			margin-top: 0.5rem;
+			font-weight: 900;
+			font-size: 46px;
+			color: $createxTitle;
+		}
+		p {
+			margin-top: 3rem;
+			font-weight: 400;
+			font-size: 16px;
+			color: $mainColor;
+		}
+		.certificate-text__logo {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 2rem;
+			.certificate-text__logo-delmar {
+			}
+			.certificate-text__logo-consulting {
+			}
+			.certificate-text__logo-national {
+			}
+		}
+	}
+}
+
+.certificate__img {
+	img {
+		width: 705px;
+	}
+}
